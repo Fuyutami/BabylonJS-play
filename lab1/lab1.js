@@ -112,7 +112,7 @@ const createScene = function () {
 
 	const matWindmillBot = new BABYLON.PBRMaterial('matWindmillBot', scene)
 	matWindmillBot.albedoTexture = new BABYLON.Texture(
-		'https://i.imgur.com/Q6i4ZiX.jpg',
+		'https://raw.githubusercontent.com/Fuyutami/BabylonJS-play/master/lab1/texture.png',
 		scene
 	)
 	matWindmillBot.metallic = 0
